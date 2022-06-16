@@ -49,7 +49,7 @@ provider "kubernetes" {
 
 # using locals for testing
 locals {
-  cluster_name    = "karpenter-test"
+  cluster_name    = "demo-cluster"
   node_group_name = "ng1"
 }
 
